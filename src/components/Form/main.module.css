@@ -1,0 +1,47 @@
+.container {
+  max-width: 480px;
+  margin: 2em auto;
+  border: 1px solid #ccc;
+  padding: 4em;
+  border-radius: 16px;
+}
+
+h1 {
+  margin-bottom: 1em;
+  font-size: 1.9em;
+}
+
+button {
+  font-size: 1em;
+  text-transform: uppercase;
+  padding: 0.8rem 1rem;
+  background-color: #0045ee;
+  color: #fff;
+  border: none;
+  border-radius: 0.2rem;
+  width: 100%;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0045cc;
+}
+
+.imc,
+.classificacao {
+  font-size: 1.2em;
+}
+
+.imc {
+  margin-bottom: 0.5em;
+}
+
+.valor {
+  font-weight: 700;
+}
+
+.resultado {
+  background-color: #eee;
+  border-radius: 10px;
+  padding: 1.5em;
+}
